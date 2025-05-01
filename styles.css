@@ -1,0 +1,38 @@
+body {
+    background: #ffc9fa;
+    background: linear-gradient(180deg, rgba(255, 201, 250, 1) 0%, rgba(255, 179, 255, 1) 50%, rgba(255, 181, 245, 1) 100%);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+}
+
+body * {
+    color: #3a3a3a;
+}
+
+#logo {
+    text-align: center;
+    padding: 40px;
+    font-size: 2em;
+}
+
+#playContainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#playButton {
+    background: none;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    cursor: pointer;
+    outline: none;
+    animation: pulse 1.5s infinite ease-in-out;
+    font-size: 2em;
+}
