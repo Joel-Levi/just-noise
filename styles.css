@@ -14,9 +14,14 @@ body * {
 }
 
 #logo {
-    text-align: center;
-    padding: 40px;
-    font-size: 2em;
+    height: 100px;
+    display: grid;
+    justify-items: center;
+}
+
+img {
+    object-fit: contain;
+    height: 100%;
 }
 
 #playContainer {
